@@ -5,28 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bd1c107-e913-47d5-bb75-379cafbdff24" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1/src/main/java/spring/code1/Code1Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1/src/main/java/spring/code1/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1/src/main/java/spring/code1/EmployeeDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1/src/test/java/spring/code1/Code1ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1/src/main/java/spring/code1/Entity/EmployeeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1/src/main/java/spring/code1/Repo/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code1/src/main/java/spring/code1/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/code1/src/main/java/spring/code1/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code1/src/main/java/spring/code1/EmployeeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/code1/src/main/java/spring/code1/EmployeeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/code1/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,16 +42,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/sunnychahall/SpringBoot.git",
-    "accountId": "4ba11daf-5a7b-4e1a-a6c2-66cf4fd70d24"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sunnychahall&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3,
-  "fromUser": false
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sunnychahall/SpringBoot.git&quot;,
+    &quot;accountId&quot;: &quot;4ba11daf-5a7b-4e1a-a6c2-66cf4fd70d24&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3EX4gaULdFvTgNoUC8oRYDr2JRC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -62,7 +72,9 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.Code1Application.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
@@ -72,9 +84,15 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/code1" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Code1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="code1" />
@@ -99,11 +117,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780311692334</updated>
-      <workItem from="1780311694111" duration="757000" />
+      <workItem from="1780311694111" duration="977000" />
+      <workItem from="1780316051553" duration="5520000" />
+      <workItem from="1780329287327" duration="6393000" />
+      <workItem from="1780409090934" duration="1395000" />
+      <workItem from="1780410652887" duration="3248000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.hibernate.StaleObjectStateException" package="org.hibernate" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

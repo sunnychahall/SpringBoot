@@ -10,6 +10,8 @@ public class EmployeeDTO {
     private boolean isActive;
 
 
+    public EmployeeDTO() {
+    }
     public Long getId() {
         return id;
     }
