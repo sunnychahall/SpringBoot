@@ -4,6 +4,7 @@ import org.springframework.web.bind.annotation.*;
 import spring.code1.Repo.EmployeeRepository;
 import spring.code1.Entity.EmployeeEntity;
 import java.util.List;
+import spring.code1.Service.EmployeeService;
 
 @RestController
 @RequestMapping(path = "/Employee")
@@ -20,28 +21,29 @@ public class EmployeeController {
 //        );
 //    }
 
-    private EmployeeRepository employeeRepository;
+    private EmployeeService employeeService;
 
-    public EmployeeController(EmployeeRepository employeeRepository) {
-        this.employeeRepository = employeeRepository;
+    public EmployeeController(EmployeeService employeeService) {
+        this.employeeService = employeeService;
     }
 
     @GetMapping
-    public List<EmployeeEntity> getAllEmployees() {
-        return employeeRepository.findAll();
+    public List<EmployeeDTO> getAllEmployees() {
+        return employeeService.getAllEmployees();
     }
 
     @GetMapping(path = "/{EmployeeId}")
 
-    public EmployeeEntity getEmployee(@PathVariable Long EmployeeId) {
-        return employeeRepository.findById(EmployeeId).orElse(null);
+    public EmployeeDTO getEmployee(@PathVariable Long EmployeeId) {
+        return employeeService.getEmployee(EmployeeId);
     }
 
 
     @PostMapping
-    public EmployeeEntity saveEmployee(@RequestBody EmployeeEntity employee) {
-        return employeeRepository.save(employee);
+    public EmployeeDTO saveEmployee(@RequestBody EmployeeDTO employee) {
+        return employeeService.saveEmployee(employee);
     }
+
 
 
 }
