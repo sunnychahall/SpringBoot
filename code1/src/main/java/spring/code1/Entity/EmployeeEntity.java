@@ -1,5 +1,6 @@
 package spring.code1.Entity;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -17,7 +18,9 @@ public class EmployeeEntity {
     private String name;
     private String email;
     private int age;
+    private String role;
     private boolean isActive;
+    private double salary;
 
 }
 

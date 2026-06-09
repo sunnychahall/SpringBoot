@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bd1c107-e913-47d5-bb75-379cafbdff24" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/code1/src/main/java/spring/code1/MapperConfig/MapperConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code1/src/main/java/spring/code1/Service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1/src/main/java/spring/code1/Advices/ApiError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1/src/main/java/spring/code1/Advices/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1/src/main/java/spring/code1/Advices/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1/src/main/java/spring/code1/Advices/GlobalResponseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1/src/main/java/spring/code1/Annotation/EmployeeRoleValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1/src/main/java/spring/code1/Annotation/EmployeeRoleValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code1/src/main/java/spring/code1/CorsConfig/CorsConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code1/src/main/java/spring/code1/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/code1/src/main/java/spring/code1/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code1/src/main/java/spring/code1/EmployeeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/code1/src/main/java/spring/code1/EmployeeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code1/src/main/java/spring/code1/Entity/EmployeeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/code1/src/main/java/spring/code1/Entity/EmployeeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code1/src/main/java/spring/code1/Service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/code1/src/main/java/spring/code1/Service/EmployeeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/db.mv.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,6 +93,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="spring.code1.Advices.GlobalExecptionHandler" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/code1" />
     </key>
@@ -118,7 +129,12 @@
       <workItem from="1780329287327" duration="6393000" />
       <workItem from="1780409090934" duration="1395000" />
       <workItem from="1780410652887" duration="3563000" />
-      <workItem from="1780474252505" duration="3188000" />
+      <workItem from="1780474252505" duration="4036000" />
+      <workItem from="1780568618488" duration="9426000" />
+      <workItem from="1780757544253" duration="1718000" />
+      <workItem from="1780761852510" duration="10000" />
+      <workItem from="1780761871794" duration="24162000" />
+      <workItem from="1780992471570" duration="3673000" />
     </task>
     <servers />
   </component>
