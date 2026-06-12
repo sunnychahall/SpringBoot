@@ -1,0 +1,28 @@
+INSERT INTO product_table
+(sku, title_x, price, quantity)
+VALUES
+    ('P101', 'iPhone 16', 79999.99, 12),
+    ('P102', 'Samsung S25', 69999.99, 15),
+    ('P103', 'OnePlus 15', 54999.99, 20),
+    ('P104', 'Pixel 10', 74999.99, 8),
+    ('P105', 'Moto Edge 60', 32999.99, 18),
+    ('P106', 'Realme GT 8', 27999.99, 25),
+    ('P107', 'Nothing Phone 4', 42999.99, 10),
+    ('P108', 'Vivo X300', 59999.99, 14),
+    ('P109', 'Oppo Find X9', 64999.99, 9),
+    ('P110', 'Xiaomi 16', 51999.99, 22),
+    ('P111', 'iQOO Neo 12', 34999.99, 30),
+    ('P112', 'Poco F8', 29999.99, 28),
+    ('P113', 'Asus ROG Phone 10', 89999.99, 5),
+    ('P114', 'Sony Xperia 1 VII', 94999.99, 4),
+    ('P115', 'Nokia XR30', 39999.99, 16),
+    ('P116', 'Honor Magic 8', 62999.99, 7),
+    ('P117', 'Huawei P80', 67999.99, 6),
+    ('P118', 'Redmi Note 15 Pro', 24999.99, 35),
+    ('P119', 'Lava Blaze X2', 19999.99, 40),
+    ('P120', 'Infinix Zero Ultra', 22999.99, 26),
+    ('P121', 'Tecno Phantom X3', 37999.99, 13),
+    ('P122', 'Google Pixel 9A', 45999.99, 17),
+    ('P123', 'Samsung A76', 41999.99, 21),
+    ('P124', 'OnePlus Nord 6', 31999.99, 24),
+    ('P125', 'CMF Phone 2', 18999.99, 50);
