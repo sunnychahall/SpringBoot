@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-261.24374.151">
+    <data-source name="code2db@localhost" uuid="f3db50e7-2309-48f5-b043-b163d77eb760">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" />
+      <user-name>root</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="db" uuid="f5a3ee65-a4d2-41c9-b09f-00b33386ab99">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="H2" />
+      <user-name>Sunny</user-name>
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>
