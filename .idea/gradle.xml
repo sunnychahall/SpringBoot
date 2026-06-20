@@ -7,6 +7,10 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$/code1/demo" />
         <option name="gradleJvm" value="ms-21" />
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/code3" />
+        <option name="gradleJvm" value="ms-21" />
+      </GradleProjectSettings>
     </option>
     <option name="offlineMode" value="true" />
   </component>

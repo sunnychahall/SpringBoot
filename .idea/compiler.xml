@@ -7,6 +7,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="HW1" />
+      </profile>
+      <profile name="Annotation profile for Employee-Backend" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
+        </processorPath>
+        <module name="Employee-Backend" />
       </profile>
       <profile name="Annotation profile for code2" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -15,17 +26,29 @@
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
         </processorPath>
-        <module name="Employee-Backend" />
-        <module name="code2" />
         <module name="code1" />
       </profile>
+      <profile name="Annotation profile for code3" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.40/lombok-1.18.40.jar" />
+        </processorPath>
+        <module name="code3" />
+      </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="code2" target="21" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Employee-Backend" options="-parameters" />
+      <module name="HW1" options="-parameters" />
       <module name="code1" options="-parameters" />
       <module name="code2" options="-parameters" />
+      <module name="code3" options="-parameters" />
     </option>
   </component>
 </project>

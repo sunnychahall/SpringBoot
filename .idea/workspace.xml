@@ -5,10 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bd1c107-e913-47d5-bb75-379cafbdff24" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/HW1/src/main/java/spring/hw1/CakeBaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW1/src/main/java/spring/hw1/Frosting/ChocolateFrosting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW1/src/main/java/spring/hw1/Frosting/Frosting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW1/src/main/java/spring/hw1/Frosting/StrawberryFrosting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW1/src/main/java/spring/hw1/Syrup/ChocolateSyrup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW1/src/main/java/spring/hw1/Syrup/StrawberrySyrup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW1/src/main/java/spring/hw1/Syrup/Syrup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code3/db3.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code3/src/main/java/spring/code3/Advices/ApiError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code3/src/main/java/spring/code3/Advices/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code3/src/main/java/spring/code3/Config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code3/src/main/java/spring/code3/Controller/PostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code3/src/main/java/spring/code3/DTO/PostDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code3/src/main/java/spring/code3/Entity/PostEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code3/src/main/java/spring/code3/Exceptions/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code3/src/main/java/spring/code3/Repo/PostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code3/src/main/java/spring/code3/Service/PostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code3/src/main/java/spring/code3/Service/PostServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/db.mv.db" afterDir="false" />
     </list>
@@ -32,6 +52,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -51,6 +72,9 @@
     &quot;accountId&quot;: &quot;4ba11daf-5a7b-4e1a-a6c2-66cf4fd70d24&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/code3/src/main/java/spring/code3/Entity/PostEntity.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3,
   &quot;fromUser&quot;: false
@@ -77,14 +101,17 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Spring Boot.Code1Application.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.Code2Application.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Code3Application.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Hw1Application.executor&quot;: &quot;Run&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/sunnychahal/code&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -96,8 +123,34 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/code1" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="spring.hw1.Frosting" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Code2Application">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="Code1Application" value="STOPPED" />
+              <entry key="Code3Application" value="STOPPED" />
+              <entry key="Hw1Application" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Hw1Application">
     <configuration name="Code2ApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code2" />
       <extension name="coverage">
@@ -159,6 +212,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Code3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="code3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="spring.code3.Code3Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hw1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="HW1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="spring.hw1.Hw1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Code2ApplicationTests" />
@@ -205,7 +272,14 @@
       <workItem from="1781167707569" duration="29000" />
       <workItem from="1781167777051" duration="76000" />
       <workItem from="1781167867252" duration="6354000" />
-      <workItem from="1781176988544" duration="3241000" />
+      <workItem from="1781176988544" duration="4419000" />
+      <workItem from="1781457226826" duration="632000" />
+      <workItem from="1781621302706" duration="9000" />
+      <workItem from="1781621330542" duration="6165000" />
+      <workItem from="1781698882574" duration="818000" />
+      <workItem from="1781699792776" duration="140000" />
+      <workItem from="1781699968342" duration="20676000" />
+      <workItem from="1781970655833" duration="996000" />
     </task>
     <servers />
   </component>
